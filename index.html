@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css1.css"/>
+    <script type="text/javascript">
+    window.onload=function(){
+		var obj=document.getElementById("header_time");
+		var year,month,day,hour,minute,second;
+		function time(){
+			var time=new Date();
+			year=time.getFullYear();
+			month=time.getMonth()+1;
+			day=time.getDay();
+			hour=time.getHours();
+			minute=time.getMinutes();
+			second=time.getSeconds();
+			obj.innerHTML="年"+month+"月"+day+"日"+hour+"时"+minute+"分"+second+"秒";	
+			
+			}
+			setInterval(function(){
+				time();
+				},1000);
+		}
+    </script>
+</head>
+<body>
+<div id="header">
+    <div id="subnav">
+        <ul>
+            <li class="pic"></li>
+            <li><a href="web7.html">购物车</a></li>
+            <li class="pic" id="pic2"></li>
+            <li><a href="web2.html">帮助中心</a></li>
+            <li class="pic" id="pic3"></li>
+            <li><a href="web4.html">加入收藏</a></li>
+            <li class="pic" id="pic4"></li>
+            <li><a href="index.html">设为首页</a></li>
+            <li><a href="web8.html"><button>登录</button></a></li>
+            <li><a href="web3.html"><button>注册</button></a></li>
+        </ul>
+    </div>
+    <div id="header_time"></div>
+    <div id="nav">
+        <ul>
+            <li><a href="#">首&nbsp页</a></li>
+            <li><a href="#">家用电器</a></li>
+            <li><a href="#">手机数码</a></li>
+            <li><a href="#">日用百货</a></li>
+            <li><a href="#">书&nbsp籍</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">免费开店</a></li>
+            <li><a href="#">全球咨询</a></li>
+        </ul>
+        <input type="text" id="search" name="search" value=""/>
+        <input type="button" id="onnock" name="button" value=""/>
+
+    </div>
+</div>
+<div id="container">
+    <div class="sidebar_a">
+    <p>家用电器</p>
+    <ul>
+        <li>大家电</li>
+        <li>洗衣机</li>
+        <li>平板电脑</li>
+        <li>电热水器</li>
+        <li>家庭音响</li>
+        <li>热水器</li>
+        <li>空调冰箱</li>
+        <li>冷柜</li>
+        <li>DVD</li>
+        <li>电视附件</li>
+        <li>电燃气</li>
+        <li>家电下乡</li>
+        <li>家电服务</li>
+        <li>电饭煲</li>
+        <li>摄像机</li>
+    </ul>
+        <p>书籍</p>
+        <ul>
+            <li>大家电</li>
+            <li>洗衣机</li>
+            <li>平板电脑</li>
+            <li>电热水器</li>
+            <li>家庭音响</li>
+            <li>热水器</li>
+            <li>空调冰箱</li>
+            <li>冷柜</li>
+            <li>DVD</li>
+            <li>电视附件</li>
+            <li>电燃气</li>
+            <li>家电下乡</li>
+            <li>家电服务</li>
+            <li>电饭煲</li>
+            <li>摄像机</li>
+        </ul>
+        <p>手机数码</p>
+        <ul>
+            <li>大家电</li>
+            <li>洗衣机</li>
+            <li>平板电脑</li>
+            <li>电热水器</li>
+            <li>家庭音响</li>
+            <li>热水器</li>
+            <li>空调冰箱</li>
+            <li>冷柜</li>
+            <li>DVD</li>
+            <li>电视附件</li>
+            <li>电燃气</li>
+            <li>家电下乡</li>
+            <li>家电服务</li>
+            <li>电饭煲</li>
+            <li>摄像机</li>
+        </ul>
+        <p>日用百货</p>
+        <ul>
+            <li>大家电</li>
+            <li>洗衣机</li>
+            <li>平板电脑</li>
+            <li>电热水器</li>
+            <li>家庭音响</li>
+            <li>热水器</li>
+            <li>空调冰箱</li>
+            <li>冷柜</li>
+            <li>DVD</li>
+            <li>电视附件</li>
+            <li>电燃气</li>
+            <li>家电下乡</li>
+            <li>家电服务</li>
+            <li>电饭煲</li>
+            <li>摄像机</li>
+        </ul>
+    </div>
+    <div id="main">
+    <div class="top">
+        <img src="img/images/ad-01.jpg"/>
+    </div>
+    <div class="buttom">
+        <dl>
+            <dt>
+                <a href="web6.html"><img src="img/images/promote-1.jpg"width="114" height="99" alt=""/></a>
+            </dt>
+                <dd><a href="web6.html">惠普商务移动应用英寸笔记本</a></dd>
+        </dl>
+            <dl>
+                <dt>
+                    <a href="web4.html"><img src="img/images/promote-2.jpg" width="114" height="89" alt=""/></a>
+
+                </dt>
+                <dd><a href="web4.html">明基MP512投影机 2899元 元京卷SVGA 2200流明</a></dd>
+            </dl>
+        <dl>
+            <dt>
+                <a href="web3.html"><img src="img/images/promote-3.jpg" width="114" height="89" alt=""/></a>
+
+            </dt>
+            <dd><a href="web3.html">明基MP512投影机 2899元 元京卷SVGA 2200流明</a></dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="web5.html"><img src="img/images/laser-pen.jpg" width="114" height="89" alt=""/></a>
+
+            </dt>
+            <dd><a href="web5.html">明基MP512投影机 2899元 元京卷SVGA 2200流明</a></dd>
+        </dl>
+            <dl>
+                <dt><a href="web5.html">
+                    <img src="img/images/mouse.jpg" width="114" height="89" alt=""/>
+                </a></dt>
+                <dd>
+                    <a href="web5.html">送100罗技数据1TB移动鼠标729元开抢了！</a>
+                </dd>
+            </dl>
+              <dl>
+                  <dt><a href="web7.html">
+                      <img src="img/images/earphone.jpg" width="114" height="89" alt=""/>
+                  </a></dt>
+                  <dd><a href="web7.html">海森纳尔极品耳机绝对不容错过！</a></dd>
+              </dl>
+                <dl>
+                    <dt><a href="web6.html">
+                        <img src="img/images/Wancom.jpg" width="114" height="89" alt=""/>
+                    </a></dt>
+                    <dd><a href="web6.html">亚马逊随时阅读，随时记录，时尚最佳选择！</a></dd>
+                </dl>
+
+                   <dl>
+                       <dt><a href="web2.html">
+                           <img src="img/images/Frame.jpg" width="114" height="89" alt=""/>
+                       </a></dt>
+                       <dd><a href="web2.html">优雅相框</a></dd>
+                   </dl>
+
+               <dl>
+                   <dt><a href="web9.html">
+                       <img src="img/images/notebook.jpg" width="114" height="89" alt=""/>
+                   </a></dt>
+                   <dd><a href="web9.html">IBM 2009最新上网本，特色尽显</a></dd>
+               </dl>
+
+
+    </div>
+        </div>
+    <div class="sidebar_b">
+        <div class="notice"></div>
+        <div class="newproduct">
+            <dl>
+                <dt><a href="#"><img src="img/images/show1.jpg" width="53" height="46" alt=""/></a></dt>
+                <dd><a href="#">大牌狂降价，三折直送</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="img/images/show2.jpg" width="53" height="46" alt=""/></a></dt>
+                <dd><a href="#">大学要求老师开网店</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="img/images/show3.jpg" width="53" height="46" alt=""/></a></dt>
+                <dd><a href="#">黑眼圈推荐，美白不停</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#"><img src="img/images/show4.jpg" width="53" height="46" alt=""/></a></dt>
+                <dd><a href="#">瘦身狂潮，修形之选</a></dd>
+            </dl>
+        </div>
+        <div class="discount"></div>
+    </div>
+
+</div>
+
+    <footer class="box">
+        <ul>友情链接:
+            <li class="b1"><a href="#">百度</a></li>
+            <li><a href="#">Google</a></li>
+            <li><a href="#">雅虎</a></li>
+            <li><a href="#">淘宝</a></li>
+            <li><a href="#">拍拍</a></li>
+            <li><a href="#">易趣</a></li>
+            <li><a href="#">当当</a></li>
+            <li><a href="#">京东商城</a></li>
+            <li><a href="#">迅雷</a></li>
+            <li><a href="#">新浪</a></li>
+            <li><a href="#">网易</a></li>
+            <li><a href="#">搜狐</a></li>
+            <li><a href="#">开心网</a></li>
+            <li><a href="#">猫扑</a></li>
+            <li><a href="#">新华网</a></li>
+            <li><a href="#">凤凰网</a></li>
+
+        </ul>
+        <hr/>
+        <p>COPYRIGHT 2003-2010 北京市最美商城有限公司 ALL RIGHT RESERVED</p>
+        <p>热线：400-66-13060 Email:service prd.com</p>
+        <p>ICP:沪ICP备05021104号</p>
+        <table class="t3">
+            <tr>
+                <td>
+                    <img src="img/images/img1.gif"/>
+                </td>
+                <td>
+                    <img src="img/images/img2.gif"/>
+                </td>
+                <td>
+                    <img src="img/images/img3.gif"/>
+                </td>
+                <td>
+                    <img src="img/images/img4.gif"/>
+                </td>
+
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
